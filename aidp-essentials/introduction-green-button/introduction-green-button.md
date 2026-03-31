@@ -9,7 +9,7 @@ Estimated Workshop Time: 2 hours 40 minutes
 ### Objectives
 
 In this workshop, you will learn how to:
-* Provision an AI Data Platform Workbench instance.
+* Access an AI Data Platform Workbench instance.
 * Load data into and access external data from the master catalog.
 * From the notebook interface create a medallion architecture using data from the master catalog.
 * Create and schedule jobs from the Workflows tab.

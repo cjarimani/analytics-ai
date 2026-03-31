@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab you will learn how to establish a connection between Oracle AI Data Platform Workbench and Oracle Analytics Cloud (OAC) to visualize and analyze your AIDP data in OAC.
+In this lab you will learn how to establish a connection between Oracle AI Data Platform Workbench and Oracle Analytics Cloud (OAC) to visualize and analyze your AIDP data in OAC. This optional lab requires that you have access to an OAC account which you can create the connection to, as you cannot create on in the lab tenancy.
 
 Estimated Time: 20 minutes
 
@@ -17,30 +17,10 @@ In this lab, you will:
 ### Prerequisites
 
 This lab assumes you have:
-* An Oracle Cloud account with access to both Oracle AI Data Platform and Oracle Analytics Cloud.
+* Access to an Oracle Analytics Cloud (OAC) instance (you cannot create one in your lab tenancy).
 * Familiarity with Oracle Analytics Cloud.
 
-## Task 1: Create Oracle Analytics Cloud Instance (Optional)
-
-If you already have an Oracle Analytics Cloud instance you can use, skip this task.
-
-1. From the OCI console, select the Navigation Meny, **Analytics** and then **Oracle Analytics Cloud**
-
-    ![navigate to oac](images/navigate-to-oac.png)
-
-2. Select **Create Instance**
-
-    ![create oac](images/access-oac-creation.png)
-
-3. Name the instance **LivelabOAC**. Leave all other selections as is and select **Create**.
-
-    ![provide details](images/create-oac-instance.png)
-
-4. When the instance is finished provisioning, you can now access the OAC home page by selecting **Analytics Home Page**.
-
-    ![access oac](images/access-oac-homepage.png)
-
-## Task 3: Generate an API Key pair
+## Task 1: Generate an API Key pair
 
 You will need an API key to create the connection between OAC and AIDP Workbench.
 
@@ -70,7 +50,7 @@ To connect AIDP Workbench and OAC, you first need a config file from the compute
 
 
 
-## Task 4: Create the Connection in Oracle Analytics Cloud
+## Task 2: Create the Connection in Oracle Analytics Cloud
 
 1. Open up the Oracle Analytics Cloud homepage. Select **Create** and then **Connection**.
 

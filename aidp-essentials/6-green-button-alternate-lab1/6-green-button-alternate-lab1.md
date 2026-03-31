@@ -1,8 +1,8 @@
-# Provision AIDP Workbench Instance and Populate the Catalog
+# Access AIDP Workbench Instance and Populate the Catalog
 
 ## Introduction
 
-This lab guides you through the process of provisioning an Oracle AI Data Platform (AIDP) Workbench instance, creating an Oracle Autonomous AI Lakehouse (ALH), creating catalogs, and managing data within those catalogs. You'll learn how to set up access to your data and organize it for future use in notebooks and jobs.
+This lab guides you through the process of accessing an Oracle AI Data Platform (AIDP) Workbench instance, creating an Autonomous AI Lakehouse (ALH), creating catalogs, and managing data within those catalogs. You'll learn how to set up access to your data and organize it for future use in notebooks and jobs.
 
 Estimated Time: 45 minutes
 
@@ -10,8 +10,8 @@ Estimated Time: 45 minutes
 
 In this lab, you will:
 
-- Provision an AIDP Workbench instance.
-- Provision a ALH.
+- Access an AIDP Workbench instance.
+- Provision an Autonomous AI Lakehouse.
 - Access the master catalog.
 - Create internal and external catalogs.
 - Manage data by creating schemas, tables, and volumes.
@@ -23,7 +23,7 @@ This lab assumes you have:
 - An Oracle Cloud account.
 - The necessary permissions to create and manage AIDP Workbench instances.
 
-## Task 1: Provision an AIDP Workbench Instance
+## Task 1: Access Your AIDP Workbench Instance
 
 1. Log in to your Oracle Cloud Infrastructure (OCI) account and access the OCI Console.
 
@@ -33,25 +33,17 @@ This lab assumes you have:
 
     ![Accessing AIDP Workbench area in OCI](images/oci-console-access-aidp.png)
 
-3. Select **Create AI Data Platform Workbench**. There are permissions required to be able to provision an AIDP Workbench instance, learn more about them [here](https://docs.oracle.com/en/cloud/paas/ai-data-platform/aidug/iam-policies-oracle-ai-data-platform.html#GUID-C534FDF6-B678-4025-B65A-7217D9D9B3DA).
+3. Navigate to the compartment that was assignd to your reservation. Select the arrow under **Compartment**. Expand the root compartment then the **Livelabs** compartment. Select the compartment name you were assigned from the list. You can find your assigned compartment in the **Tenancy Information** section of your reservations information.
 
-    ![Choose Create AIDP Workbench](images/begin-aidp-creation.png)
+    ![Choose Compartment](images/find-compartment.png)
 
-4. Provide an AI Data Platform name and Workspace name. In the **Add Policies** section for **Choose access level**, select **Standard - Recommended access settings at tenancy level**.
+4. When you select your compartment you will see an AIDP Workbench instance appear. Select its name to access it. You may be prompted to login using the username assigned to your reservation and the password you set for it.
 
-    ![Name instance and workspace](images/input-aidp-information.png)
-
-5. If a dialog appears indicating that further policies are required to create the AIDP Workbench instance, review the policies and choose **Add**.
-
-
-6. Under **Optional Policies** view other suggested policies related to your AIDP Workbench instance. Add any you would like and select **Create**. It may take a few minutes for the instance to provision.
-
-    ![Create AIDP Instance](images/create-aidp-instance.png)
-
+    ![Select AIDP instance](images/select-aidp-instance.png)
 
 ## Task 2: Provision an Autonomous AI Lakehouse
 
-1. While waiting for the AIDP Workbench to provision, select **Oracle AI Database** and then **Autonomous AI Database** from the Navigation Menu.
+1. Before continuing in the AIDP Data Platform Workbench, you need to create a database that you will connect to it. Return to the OCI console tab and select **Oracle AI Database** and then **Autonomous AI Database** from the Navigation Menu.
 
     ![Navigate to Automonous Database page](images/navigate-to-dbs.png)
 
@@ -136,7 +128,7 @@ Now you'll navigate back to your AIDP Workbench instance to create an external c
 
     ![Select Master Catalog](images/name-external-catalog.png)
 
-6. Select **Oracle Autonomous AI Lakehouse** as the source type. Upload the wallet file you downloaded in the previous task. Select the low option for **Service Level**, enter **ADMIN** for **Username**, and then enter the password you created under **Password**. Leave all other sections as is. Select **Test connection** then **Create**.
+6. Select **Oracle Autonomous Data Warehouse** as the source type. Upload the wallet file you downloaded in the previous task. Select the low option for **Service Level**, enter **ADMIN** for **Username**, and then enter the password you created under **Password**. Leave all other sections as is. Select **Test connection** then **Create**.
 
     ![Select Master Catalog](images/configure-catalog-db-access.png)
 
