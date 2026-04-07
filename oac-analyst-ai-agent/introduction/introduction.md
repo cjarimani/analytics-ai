@@ -2,21 +2,21 @@
 
 ## About this Workshop
 
-Data-level security defines what a user in an analytics application can access inside a report. When run by two different users, the same report can bring up different data. The structure of the view is the same for all users, unless a user does not have access to the subject area, in which case the report displays an error. Ensuring that only authorized people can access specific data is important to prevent sensitive information from being queried or run.
+Imagine walking into a business review where you don’t open dashboards—you simply ask questions and get answers instantly. In this live lab, we showcase how Oracle Analytics Cloud transforms into an AI-powered analyst that not only visualizes data but explains why things are happening and what to do next. By combining semantic understanding with generative AI, OAC moves beyond reporting into real-time decision intelligence. This is the shift from data-driven dashboards to AI-driven decisions.
 
 Estimated Workshop Time: 60 minutes
 
 
-  [](youtube:MrV_5PK9Rrw)
+  [](youtube:r8JOfJ0ZXU0)
 
 ### Objectives
 
 In this workshop, you will learn how to:
 
-* Setup Security Table in Autonomous Data Warehouse(ADW).
-* Create Application Roles in Oracle Analytics Cloud(OAC).
-* Create Initialization Block in Semantic Modeler.
-* Configure Row-Level Security in Semantic Modeler.
+* Build a Curated Dataset in Oracle Analytics Cloud(OAC)
+* Create and AI Sales Agent
+* Chat with the Agent
+* Configure the workbook to use the AI Sales Agent
 
 ### Prerequisites
 
@@ -27,9 +27,9 @@ This lab assumes you have:
 
 ## Learn More
 
-* [Build Semantic Models in OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/create-and-build-your-model.html)
+* [About Oracle Analytics AI Agents](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/oracle-analytics-ai-agents.html)
 
 ## Acknowledgements
 
-* **Author** - Chenai Jarimani, Cloud Architect, NACI
-* **Last Updated By/Date** - Chenai Jarimani, May 2025
+* **Author** - Chenai Jarimani, Cloud Architect, ONA
+* **Last Updated By/Date** - Chenai Jarimani, May 2026
