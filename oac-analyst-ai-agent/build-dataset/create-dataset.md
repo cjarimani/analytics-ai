@@ -1,8 +1,8 @@
-# Configure Security
+# Create a Dataset
 
 ## Introduction
 
-This lab walks you through the steps to configure the data-level security in the semantic modeler using the application roles and session variables defined in the previous tasks to filter the data. The Data Filter is where the expression is created that is appended to the Oracle Analytics Where clause for each query. Please note Data Filters are not executed for users who explicitly or implicitly have the BI Service Administrator role.
+In this lab, you will create and prepare a dataset in Oracle Analytics Cloud that serves as the foundation for your AI agent. You’ll ensure the data is clean, well-structured, and uses business-friendly naming so it can be easily understood by both users and AI. This is a critical step, as the quality and clarity of your dataset directly impact the accuracy of insights generated later.
 
 Estimated Time: 20 minutes
 
@@ -151,5 +151,5 @@ In case the user does not choose the **Countries** table for the analysis, the *
 
 
 ## Acknowledgements
-* **Author** - Chenai Jarimani, Cloud Architect, NACI
-* **Last Updated By/Date** - Chenai Jarimani, May 2025
+* **Author** - Chenai Jarimani, Cloud Architect, ONA
+* **Last Updated By/Date** - Chenai Jarimani, May 2026

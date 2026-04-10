@@ -1,5 +1,5 @@
 {
-    "workshoptitle": "Implement Row-Level Security with Semantic Modeler in OAC",
+    "workshoptitle": "Build Your Own AI Analyst with Oracle Analytics Cloud (OAC)",
     "include": {"starter-file.sql":"../../data-load/files/starter-file.sql",
                 "sample.json":"../../data-load/files/sample.json",
                 "step2.md":"../../data-load/files/step2.md"},
@@ -18,20 +18,20 @@
             "filename": "https://livelabs.oracle.com/cdn/common/labs/cloud-login/cloud-login.md"
         },
         {
-            "title": "Lab 1: Create Security Table",
-            "filename": "../../create-security-table/create-security-table.md"
-        },
-        {
-            "title": "Lab 2: Create Application Roles",
-            "filename": "../../create-application-role/create-application-role.md"
-        },
-        {
-            "title": "Lab 3: Create Initialization Block",
-            "filename": "../../create-initialization-block/create-initialization-block.md"
-        },
-        {
-            "title": "Lab 4: Configure Security",
-            "filename": "../../configure-security/configure-security.md"
+            "title": "Lab 1: Create A Dataset",
+          "filename": "../../create-dataset/create-dataset.md"
+      },
+      {
+          "title": "Lab 2: Create AI Agent",
+          "filename": "../../create-aiagent/create-aiagent.md"
+      },
+      {
+          "title": "Lab 3: Chat With The AI Agent",
+          "filename": "../../chat-with-aiagent/chat-with-aiagent.md"
+      },
+      {
+          "title": "Lab 4: Configure Workbook",
+          "filename": "../../configure-workbook/configure-workbook.md"
         },
                 {
             "title": "Need Help?",

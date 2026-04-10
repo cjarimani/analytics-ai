@@ -1,8 +1,8 @@
-# Create Initialization block in OAC
+# Chat with AI Agent
 
 ## Introduction
 
-This lab walks you through the steps to create an initialization block with a session variable that execute each time a user logs into Oracle Analytics. The block will query the security table to identify which countries each user is allowed to see. The initialization query references the data source's tables that supply the variable values.
+In this lab, you will interact with the AI agent using natural language to explore your data and uncover insights. Instead of building reports, you’ll ask questions and receive instant answers, visualizations, and explanations. This demonstrates how analytics becomes conversational, enabling faster and more intuitive decision-making.
 
 Estimated Time: 20 minutes
 
@@ -80,5 +80,5 @@ You may now **proceed to the next lab.**
 * [Create and Use Variables in a Semantic Modeler](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/create-and-use-variables-semantic-model.html)
 
 ## Acknowledgements
-* **Author** - Chenai Jarimani, Cloud Architect, NACI
-* **Last Updated By/Date** - Chenai Jarimani, May 2025
+* **Author** - Chenai Jarimani, Cloud Architect, ONA
+* **Last Updated By/Date** - Chenai Jarimani, May 2026

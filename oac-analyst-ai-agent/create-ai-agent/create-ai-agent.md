@@ -1,8 +1,8 @@
-# Create a Custom Application Role in OAC
+# Create AI Agent
 
 ## Introduction
 
-This lab walks you through the steps to create a custom application role to use in the semantic modeler to assign permissions. An application role comprises a set of permissions that determine what users can see and do after signing in to Oracle Analytics Cloud.
+In this lab, you will create an AI agent in Oracle Analytics Cloud that acts as a domain-specific business analyst. By defining its purpose, attaching the dataset, and providing clear instructions, you shape how the agent interprets data and responds to questions. This transforms your data into an interactive, intelligent experience where users can ask questions and receive meaningful insights instantly.
 
 Estimated Time: 10 minutes
 
@@ -84,5 +84,5 @@ You may now **proceed to the next lab.**
 * [About Application Roles](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acabi/application-roles.html#GUID-3CEED4DB-F124-45AF-A115-75AF7392974C)
 
 ## Acknowledgements
-* **Author** - Chenai Jarimani, Cloud Architect, NACI
-* **Last Updated By/Date** - Chenai Jarimani, May 2025
+* **Author** - Chenai Jarimani, Cloud Architect, ONA
+* **Last Updated By/Date** - Chenai Jarimani, May 2026

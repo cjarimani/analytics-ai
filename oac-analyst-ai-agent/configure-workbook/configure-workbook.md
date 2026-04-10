@@ -1,8 +1,8 @@
-# Create Security Table
+# Configure Workbook with AI Agent
 
 ## Introduction
 
-This lab walks you through the steps to create a database table USER_RESPONSIBILITIES which contains country assignments for analytics users.
+In this lab, you will integrate the AI agent directly into an OAC workbook, making its capabilities accessible within a familiar dashboard environment. This allows users to seamlessly transition from visual exploration to conversational insights without leaving the workbook.
 
 Estimated Time: 10 minutes
 
@@ -59,5 +59,5 @@ You may now **proceed to the next lab.**
 * [SQL Developer Web](https://docs.oracle.com/en/cloud/paas/autonomous-database/serverless/adbsb/connect-database-actions.html#GUID-C32A78E5-4C5F-476F-86AB-AEEEA9CF2704)
 
 ## Acknowledgements
-* **Author** - Chenai Jarimani, Cloud Architect, NACI
-* **Last Updated By/Date** - Chenai Jarimani, May 2025
+* **Author** - Chenai Jarimani, Cloud Architect, ONA
+* **Last Updated By/Date** - Chenai Jarimani, May 2026
